@@ -10,7 +10,14 @@ export class TableComponent implements OnInit {
   public enableEdit = false;
   public enableEditIndex = null;
   public itemChange: Item;
-  public items: Item[] = [];
+  public items: Item[] = [
+    {
+      firstName: "asd",
+      lastName: "asdasd",
+      email: "asdasd",
+      isCreate: false
+    }
+  ];
 
   constructor() {}
 

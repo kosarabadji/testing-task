@@ -2,18 +2,27 @@
 .table th {
   vertical-align: inherit !important;
   min-width: 220px;
+  padding: 0.5rem;
 }
 
-.header-actions {
-  padding: 15px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+.table-bordered td,
+.table-bordered th {
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.semibold-btn {
+  font-weight: 500;
 }
 
 input {
   width: 100%;
   max-width: calc(200px - 20px);
+  height: calc(100% - 4px);
   border: 1px solid #ddd;
   padding: 3px 10px;
+}
+
+button {
+  min-width: 45px;
 }
